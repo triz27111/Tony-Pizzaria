@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(./img/Tela\ Inicial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    align-items: end;
+    
+}
+
+header p{
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.logo{
+    padding: 0px 12px;
+}
+
+main{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+main p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .text{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 4px;
+    
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 700;
+    width: 60%;
+}
+
+.description{
+    font-size: 16px;
+    width: 84%;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    align-items: center;
+}
+
+.senha, .email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.input_email,.input_senha{
+    width: 70%;
+}
+
+input{
+    background-color: transparent;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-color: white;
+    height: 100%;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.botao{
+    display: flex;
+    background-color: white;
+    width: 298px;
+    height: 54px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #F27706;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.esq{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-right: 120px;
+}
+
+footer{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.ainda{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.criar{
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
